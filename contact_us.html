@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+</head>
+<body>
+    <div id="container">
+    <header>
+        <h1>Carshop Company </h1>
+        <h2>Contact us</h2>
+        <hr>
+        <nav>
+            <a class="nav_link" href="index.html">Home</a>
+            <a class="nav_link" href="products.html">Products</a>
+            <a class="nav_link" href="about_us.html">About us</a>
+            <a class="nav_link" id="current_page" href="contact_us.html">Contact us</a>
+        </nav>
+        </header>
+        <!-- <a href="https://www.yahoo.co.jp/">YAHOO JAPAN</a> -->
+        <link rel="stylesheet" type="text/css" href="css/general.css">
+        <br>
+        <form>
+            <label for="firstname"> Firstname: </label>
+            <input type="text" name="firstname" id="firstname" placeholder="Firstname">
+            <label for="latname"> Lastname: </label>
+            <input type="text" name="lastname" id="lastname" placeholder="Lastname">
+            <br>
+            <label for="password"> Password: </label>
+            <input type="password" name="password" id="password">
+            <br>
+            <label for="birthday"> Birthday: </label>
+            <input type="date" name="birthday" id="birthday">
+            <br>
+            <label for="email"> Email address: </label>
+            <input type="email" name="email" id="email" required>
+            <br>
+            <label for="email"> Message: </label>
+            <textarea id="message" name="message"></textarea>
+            <br>
+            <label for="type_of_inquiry"> Inquiry Type: </label>
+            <br>
+            <input type="radio" name="type_of_inquiry" id="general_inquiry" value="general_inquiry">
+            <label for="general_inquiry"> General Type</label>
+            <br>
+            <input type="radio" name="type_of_inquiry" id="suggestions" value="suggestions">
+            <label for="suggestions"> Suggestions</label>
+            <br>
+            <input type="radio" name="type_of_inquiry" id="appointments" value="appointments">
+            <label for="appointments"> Appointments</label>
+            <br>
+            <label for="advertisement">How did you learn about us?</label>
+            <br>
+            <input type="checkbox" id="social_media" name="social_media" value="social_media">
+            <label for="social_media">Social media</label>
+            <br>
+            <input type="checkbox" id="billboards" name="billboards" value="billboards">
+            <label for="billboards">Billboards</label>
+            <br>
+            <input type="checkbox" id="television" name="television" value="television">
+            <label for="television">Television</label>
+            <br>
+            <input type="checkbox" id="radio" name="radio" value="radio">
+            <label for="radio">Radio</label>
+            <br>
+            <input type="checkbox" id="pamphlets" name="pamphlets" value="pamphlets">
+            <label for="pamphlets">Pamphlets</label>
+            <br>
+            <label for="country_of_origin">Country of Origin: </label>
+            <select id="country_of_origin" name="country_of_origin">
+                <option value="australia">Australia</option>
+                <option value="brazil">Brazil</option>
+                <option value="cyprus">Cyprus</option>
+                <option value="djibouti">Djibouti</option>
+                <option value="eritrea">Eritrea</option>
+                <option value="france">France</option>
+                <option value="germany">Germany</option>
+                <option value="haiti">Haiti</option>
+            </select>
+            <br>
+            <label for="country_visited">Countries Visited: </label>
+            <select id="country_visited" multiple>
+                <option value="austria">Austria</option>
+                <option value="belgium">Belgium</option>
+                <option value="canada">Canada</option>
+                <option value="denmark">Denmark</option>
+                <option value="egypt">Egypt</option>
+                <option value="finland">Finland</option>
+                <option value="ghana">Ghana</option>
+                <option value="hungary">Hungary</option>
+            </select>
+            <br>
+            <label for="zip_code">Zip Code: </label>
+            <input type="number" name="zip_code" id="zip_code" min="1000" max="9999">
+            <br>
+            <label for="file_upload">File: </label>
+            <input type="file" id="file_upload" name="file_upload">
+            <br>
+            <button type="submit" value="Submit">Submit</button>
+            <br>
+            <input type="button" value="Click me">
+            <br>
+            <input type="image" src="images/blue_dot.png" alt="Picture of a blue dot button.">
+        </form>
+        <footer>Copyright Carshop company</footer>
+    </div>
+    </body>
+</html>

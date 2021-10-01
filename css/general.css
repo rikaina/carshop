@@ -1,0 +1,118 @@
+#current_page {
+    background-color: aquamarine;
+
+}
+a {
+    background-color: salmon;
+    color: black;
+}
+.nav_link {
+    background-color: lightgray;
+    text-decoration: underline;
+}
+.nav_link:hover, #current_page:hover {
+    background-color: yellowgreen;
+    text-decoration: none;
+}
+#firstname:active {
+    background-color: yellow;
+}
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+div span {
+    background-color: violet;
+}
+div {
+    /* text-indent: 35px */
+}
+/* I am a comment. */
+h1 {
+    font-size: 45px;
+    font-weight: normal;
+    /* font-style: italic; */
+    text-transform: capitalize;
+    /* text-decoration: line-through; */
+    text-align: center;
+    text-shadow: 2px 2px 0px yellow;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+}
+#product_list li {
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+
+ul > li {
+    /* list-style-type: square; */
+    list-style: url(../images/blue_dot.png) square outside; 
+}
+.about_us_photo {
+    height: 300px;
+    width: 300px;
+    background-color: rgb(0, 189, 189);
+    margin: 25px;
+    padding: 50px;
+    border: 5px solid #ff0000;
+    border-radius: 20px;
+    /* overflow: scroll; */
+    /* box-sizing: border-box; */
+    box-shadow: 4px 4px 10px yellow;
+    display: inline-block;
+    vertical-align: middle;
+    /* position: relative;
+    z-index: -2; */
+}
+#box1 {
+    background-image: url(../images/tree2.jpeg);
+    position: absolute;
+
+    top: 200px;
+    left: -200px;
+}
+#box2 {
+    background-image: url(../images/Shibuya_branch.jpeg);
+    background-repeat: no-repeat;
+}
+#box3 {
+    background-image: url(../images/Osaka_branch.html);
+    background-repeat: no-repeat;
+}
+#box4 {
+    background-image: url(../images/building3.jpeg);
+    background-repeat: no-repeat;
+    /* background-position: 100px 50px; */
+    /* background-attachment: local; */
+    /* background-size: contain; */
+    background: rgb(0, 189, 0) url("../images/tree.jpeg") no-repeat 20px 20px;
+}
+#box5 {
+    background-image: url(../images/CEO2.jpeg);
+    background-repeat: no-repeat;
+}
+#container {
+    width: 85%;
+    margin: auto;
+}
+table {
+    /* empty-cells: hide; */
+    /* border-spacing: 7px; */
+    /* border-collapse: separate; */
+
+}
+td, th, table {
+    border: 3px solid blue;
+}
+#sample_pic {
+    width: 200px;
+    float: right;
+}
+#sample_p {
+    clear: none;
+}
+footer {
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    background-color: brown;
+}
